@@ -19,7 +19,7 @@
 
 ### 🔐 Login Page
 <p align="center">
-  <img src="./screenshots/login.png" width="750"/>
+  <img src="https://github.com/pun33th45/CodePilotAI/blob/2500288868569785cc17c40ed68c7beb93a05c90/Screenshots/login.png" width="750"/>
 </p>
 
 ---
@@ -33,21 +33,21 @@
 
 ### 📝 Editor – Code Input View
 <p align="center">
-  <img src="./screenshots/editor.png" width="750"/>
+  <img src="https://github.com/pun33th45/CodePilotAI/blob/2500288868569785cc17c40ed68c7beb93a05c90/Screenshots/Editor.png" width="750"/>
 </p>
 
 ---
 
 ### 🧠 AI-Powered Code Analysis
 <p align="center">
-  <img src="./screenshots/analysis.png" width="750"/>
+  <img src="https://github.com/pun33th45/CodePilotAI/blob/2500288868569785cc17c40ed68c7beb93a05c90/Screenshots/analysis.png" width="750"/>
 </p>
 
 ---
 
 ### 🏆 Clean / Error-Free Code Result
 <p align="center">
-  <img src="./screenshots/corrected-code.png" width="750"/>
+  <img src="https://github.com/pun33th45/CodePilotAI/blob/2500288868569785cc17c40ed68c7beb93a05c90/Screenshots/corrected%20code.png" width="750"/>
 </p>
 
 ---
@@ -55,4 +55,43 @@
 ## 🔧 Environment Variables
 
 Create a `.env` file in your project root:
+
+<h2>🛠 Tech Stack</h2>
+<ul>
+  <li>React + TypeScript</li>
+  <li>Vite</li>
+  <li>Google Gemini API</li>
+  <li>Vercel Deployment</li>
+</ul>
+
+<h2>🔧 Environment Variable</h2>
+<p>Create a <code>.env</code> file in the project root:</p>
+
+<pre>
+VITE_API_KEY=your_api_key_here
+</pre>
+
+<h2>▶️ Run Locally</h2>
+<pre>
+npm install
+npm run dev
+</pre>
+
+<h2>☁️ Deploy on Vercel</h2>
+<ol>
+  <li>Push project to GitHub</li>
+  <li>Import repo on Vercel</li>
+  <li>Add the environment variable <code>VITE_API_KEY</code></li>
+</ol>
+
+<h2>📂 Project Structure</h2>
+<pre>
+src/
+ ├─ components/
+ ├─ services/
+ ├─ pages/
+</pre>
+
+<h2>📄 License</h2>
+<p>MIT License © 2025</p>
 
