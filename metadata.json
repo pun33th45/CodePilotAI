@@ -1,0 +1,5 @@
+{
+  "name": "CodeReview AI",
+  "description": "Enterprise-grade AI code review platform. Features deep static analysis, security auditing, and automated refactoring powered by Gemini 2.5.",
+  "requestFramePermissions": []
+}
