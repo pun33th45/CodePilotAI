@@ -1,20 +1,139 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📘 CodeReview AI
 
-# Run and deploy your AI Studio app
+AI-powered code review assistant built with React, TypeScript, Vite, and Google Gemini.
 
-This contains everything you need to run your app locally.
+CodeReview AI provides automated insights on code quality, bug detection, and best-practice improvements using Google's Gemini AI model. Designed for developers who want fast, accurate, and contextual code reviews.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1h5omXXHzzpmjGiYYKs0jgzM3b9gvyaZg
+🚀 Features
+🔍 Automated Code Review
 
-## Run Locally
+Detects syntax errors
 
-**Prerequisites:**  Node.js
+Suggests improvements
+
+Highlights potential bugs
+
+Recommends best practices
+
+🤖 Powered by Google Gemini
+
+Integrated with Google GenAI for accurate, context-aware code review.
+
+🎨 Clean & Responsive UI
+
+Built with React + TypeScript
+
+Modern dashboard layout
+
+Interactive code editor pane
+
+Highlights code issues inline
+
+⚡ Vite for Ultra-Fast Development
+
+Superfast build and dev environment.
+
+☁️ Fully Deployable on Vercel
+
+Optimized for serverless deployment with easy environment variable support.
+
+🛠️ Tech Stack
+Layer	Tools
+Frontend	React, TypeScript, Vite
+AI Model	Google Gemini (Generative AI API)
+Styling	CSS / Tailwind (if used)
+Deployment	Vercel
+State Mgmt	React Hooks
+📂 Project Structure
+codereview-ai/
+│
+├── components/          # Reusable UI components
+├── pages/               # Main application pages
+├── services/            # API and business logic (Gemini, GitHub, DB)
+├── metadata.json        # App metadata
+├── types.ts             # TypeScript interfaces & types
+├── App.tsx              # Root app component
+├── index.tsx            # App entry point
+├── vite.config.ts       # Vite config
+└── README.md            # Project documentation
+
+🔧 Environment Variables
+
+Create a .env file in the root:
+
+VITE_API_KEY=your_google_gemini_api_key_here
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Important: Variables MUST start with VITE_ to be exposed in a Vite app.
+
+Never commit your .env file. Add it to .gitignore.
+
+▶️ Running Locally
+1. Install dependencies
+npm install
+
+2. Run the development server
+npm run dev
+
+
+This starts the app at:
+
+http://localhost:3000
+
+📦 Build for Production
+npm run build
+
+
+Outputs a production bundle inside the /dist folder.
+
+☁️ Deploying to Vercel
+
+Push your project to GitHub
+
+Import the repo in Vercel
+
+Add environment variable:
+
+VITE_API_KEY=<your_key>
+
+
+Deploy
+Vercel will automatically detect your Vite setup.
+
+🧠 How It Works (AI Logic Overview)
+
+User pastes code in the editor
+
+App sends the code & user preferences to Gemini
+
+Gemini analyzes the input using a custom prompt:
+
+Style enforcement
+
+Bug detection
+
+Code improvements
+
+Best practice feedback
+
+AI response is displayed with inline annotations
+
+🛡️ Security Notes
+
+API key is never stored client-side in the repository
+
+Sensitive environment variables must remain in .env
+
+Vercel securely injects them at build time
+
+💡 Future Enhancements (Optional list for roadmap)
+
+Integrate GitHub OAuth to review repository files
+
+Add multi-language syntax support
+
+Inline comment threading
+
+Exportable review reports (PDF/MD)
+
+Custom rules engine for linting
