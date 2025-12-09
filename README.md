@@ -26,7 +26,7 @@
 
 ### 📊 Dashboard (Command Center)
 <p align="center">
-  <img src="./screenshots/dashboard.png" width="750"/>
+  <img src="https://github.com/pun33th45/CodePilotAI/blob/7caa2e6c15c91320aecd5742f892901062f2e3a0/Screenshots/Dashboard.png" width="750"/>
 </p>
 
 ---
