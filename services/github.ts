@@ -1,4 +1,4 @@
-export interface GitHubRepo {
+﻿export interface GitHubRepo {
   id: number;
   name: string;
   full_name: string;
@@ -57,7 +57,7 @@ export const githubService = {
   connect: async (): Promise<{ username: string; token: string }> => {
     return new Promise((resolve) => {
       setTimeout(() => {
-        resolve({ username: 'monalisa_dev', token: 'gho_mock_token_12345' });
+        resolve({ username: 'monalisa_dev', token: '' });
       }, 1500);
     });
   },
